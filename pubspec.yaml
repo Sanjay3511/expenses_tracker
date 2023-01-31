@@ -5,12 +5,13 @@ version: 1.0.0+1
 
 environment:
   sdk: '>=2.18.6 <3.0.0'
-
+#    external dependencies
+# cupertino icons are used fpr ios style icons/
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.2
+  intl: ^0.18.0
 
 dev_dependencies:
   flutter_test:
